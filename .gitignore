@@ -1,0 +1,16 @@
+# 仮想環境
+appvenv_vgg16app/
+
+# Python
+photoidentify/**/__pycache__/
+*.pyc
+*.pyo
+
+# Django
+photoidentify/*.log
+photoidentify/db.sqlite3
+
+# モデルファイル
+*.h5
+*.pkl
+*.weights
